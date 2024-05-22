@@ -1,0 +1,43 @@
+<html>
+<head>
+<style>
+a{
+text-decoration: none;
+color: black;
+user-select: none;
+pointer-events: none;
+}
+a:link{
+color: black;
+}
+
+a:hover{
+cursor: default;
+}
+
+a:visited{
+color: white;
+}
+
+</style>
+</head>
+<body>
+<h1>St.Thomas Course Catalog</h1>
+<a>P</a>
+<a>A</a>
+<a>X</a>
+<a href = "https://www.stthomas.edu/catalog/current/arth/">D</a>
+<a href = "https://www.stthomas.edu/catalog/current/chem/">L</a>
+<a href = "https://www.stthomas.edu/catalog/current/econ/">Q</a>
+<a href = "https://www.stthomas.edu/catalog/current/engl/">S</a>
+<a href = "https://www.stthomas.edu/catalog/current/math/">B</a>
+<a href = "https://www.stthomas.edu/catalog/current/physics/">I</a>
+
+<br/>
+<label for ="Name">Enter letters you see above(Must be capital):</label>
+<form action="historyserver.php" method="post">
+<input type="text" name="fake">
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>
